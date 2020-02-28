@@ -10,4 +10,5 @@ powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Jackson
 just-install hwinfo64 msi-afterburner cinebench-r20 furmark prime95 aida64
 ::update the just-install file to replace custom file, getting latest versions of official programs
 just-install update
+just-install crystaldiskmark crystaldiskinfo cpu-z
 pause
