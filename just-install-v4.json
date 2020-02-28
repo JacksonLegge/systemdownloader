@@ -1,0 +1,100 @@
+{
+  "$schema": "./just-install-v4.schema.json",
+  "version": 4,
+  "packages": {
+	"cinebench-r20": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.USERPROFILE}}\\documents\\Benchmarks\\Cinebench_r20"
+        },
+        "x86": "http://http.maxon.net/pub/cinebench/CinebenchR20.zip"
+      },
+      "version": "20"
+    },
+	"hwinfo64": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://www.sac.sk/download/utildiag/hwi_622.exe"
+      },
+      "version": "6.2.2"
+    },
+	"furmark": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://geeks3d.com/dl/get/629"
+      },
+      "version": "1.21.0.0"
+    },
+	"unigine-valley": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://assets.unigine.com/d/Unigine_Valley-1.0.exe"
+      },
+      "version": "2013"
+    },
+	"unigine-heaven": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://assets.unigine.com/d/Unigine_Heaven-4.0.exe"
+      },
+      "version": "2009"
+    },
+	"unigine-superposition": {
+      "installer": {
+        "kind": "innosetup",
+        "options": {
+          "extension": ".exe"
+        },
+        "x86": "https://assets.unigine.com/d/Unigine_Superposition-1.1.exe"
+      },
+      "version": "2017"
+    },
+	"msi-afterburner": {
+      "installer": {
+        "kind": "nsis",
+        "options": {
+		"container": {
+            "installer": "4.6.2\\MSIAfterburnerSetup462.exe",
+            "kind": "zip"
+          }
+        },
+        "x86": "http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip"
+      },
+      "version": "4.6.2"
+    },
+	"prime95": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.USERPROFILE}}\\documents\\Benchmarks\\Prime95"
+        },
+        "x86": "http://www.mersenne.org/ftp_root/gimps/p95v298b6.win64.zip"
+      },
+      "version": "29.8"
+    },
+	"aida64": {
+      "installer": {
+        "kind": "zip",
+        "options": {
+          "destination": "{{.USERPROFILE}}\\documents\\Benchmarks\\AIDA64"
+        },
+        "x86": "http://download.aida64.com/aida64extreme620.zip"
+      },
+      "version": "6.20.53"
+    },
+	}
+}
+
