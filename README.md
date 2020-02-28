@@ -24,7 +24,7 @@
  - Furmark
  - 7zip
  - Prime95
- - 64 Extreme (Trial)
+ - AIDA64 Extreme (Trial)
 
 
  ## Install All (No Unigine)
